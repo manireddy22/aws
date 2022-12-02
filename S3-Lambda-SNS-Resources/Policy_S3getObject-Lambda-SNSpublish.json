@@ -24,10 +24,10 @@
                 "logs:PutRetentionPolicy"
             ],
             "Resource": [
-                "arn:aws:logs:*:<123456123456>:log-group:*:log-stream:*",
+                "arn:aws:logs:*:<350104495048>:log-group:*:log-stream:*",
                 "arn:aws:logs:*:<123456123456>:log-group:*",
-                "arn:aws:s3:::<your-s3-bucket-name>/*",
-                "arn:aws:sns:*:<123456123456>:<your-sns-topic-name>"
+                "arn:aws:s3:::<transcationbucket>/*",
+                "arn:aws:sns:*:<35010449504>:<topic-lambdademo>"
             ]
         }
     ]
